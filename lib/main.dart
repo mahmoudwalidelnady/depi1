@@ -25,7 +25,7 @@ class firist extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp( home: AboutListTile(),);
+    return MaterialApp( home: SizedBox.shrink(),);
   }
 }
 
